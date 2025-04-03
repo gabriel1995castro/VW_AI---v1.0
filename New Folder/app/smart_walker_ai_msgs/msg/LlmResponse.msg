@@ -1,0 +1,5 @@
+string user_request
+bool validate_request
+string direct_request
+string goal_name
+LlmGoalPose goal_coordinates

@@ -1,0 +1,10 @@
+# Request 
+string prompt # Input from user
+---
+# response
+LlmResponse response
+---
+# Feedback
+string status # Status of process
+string agent_name
+string feedback_response

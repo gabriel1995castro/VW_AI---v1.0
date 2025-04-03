@@ -1,0 +1,222 @@
+index,init_line,text,source
+0,0,"General Description 
+This document provides an overview of the sections and offices in the CT-XIII building, a 
+three-story facility that houses classrooms and specialized research areas dedicated to 
+multiple engineering disciplines. 
+Human Centered System Laboratory (HCS) 
+The Human Centered System Laboratory (HCS) focuses on research in rehabilitation and 
+human-assistance robotics. It is equipped with high-performance workstations, a 
+dedicated device charging station, and a prototyping area that includes 3D printing ",SemanticDescription.txt
+1,4,"Human Centered System Laboratory (HCS) 
+The Human Centered System Laboratory (HCS) focuses on research in rehabilitation and 
+human-assistance robotics. It is equipped with high-performance workstations, a 
+dedicated device charging station, and a prototyping area that includes 3D printing 
+capabilities for robotic components and materials for developing embedded electronic 
+systems. 
+The laboratory also houses a battery bank used to charge the NIRA robot and the 
+SmartWalker, two key projects under development. ",SemanticDescription.txt
+2,8,"capabilities for robotic components and materials for developing embedded electronic 
+systems. 
+The laboratory also houses a battery bank used to charge the NIRA robot and the 
+SmartWalker, two key projects under development. 
+The HCS is directed by Professor Anselmo Frizera Neto, and the research team includes: 
+Postdoctoral Researcher: Fabian Machado. 
+Master’s Students: Matheus Penido, Elio Triana, Igor Batista, and Gabriel Rodrigues. 
+Undergraduate Students: Duda Mattos, Mariana Godoy, Sergio Junior, and Weslley das ",SemanticDescription.txt
+3,12,"The HCS is directed by Professor Anselmo Frizera Neto, and the research team includes: 
+Postdoctoral Researcher: Fabian Machado. 
+Master’s Students: Matheus Penido, Elio Triana, Igor Batista, and Gabriel Rodrigues. 
+Undergraduate Students: Duda Mattos, Mariana Godoy, Sergio Junior, and Weslley das 
+Neves. 
+Workspaces within the laboratory are organized as follows: 
+Desk 1: Elio Triana. 
+Desk 2: Matheus Penido. 
+Desk 3: Fabian Machado. 
+Desk 4: Weslley das Neves. 
+Desk 5: Mariana Godoy. 
+Desk 6: Gabriel Rodrigues. ",SemanticDescription.txt
+4,18,"Desk 1: Elio Triana. 
+Desk 2: Matheus Penido. 
+Desk 3: Fabian Machado. 
+Desk 4: Weslley das Neves. 
+Desk 5: Mariana Godoy. 
+Desk 6: Gabriel Rodrigues. 
+Desk 7: Sergio Junior. 
+This structured layout promotes collaboration while providing each team member with a 
+dedicated workspace for their research activities. 
+Main Corridor 
+The Main Corridor serves as the central connection point for various facilities and offices 
+within the building. It features an emergency exit at the northern end and access to rooms ",SemanticDescription.txt
+5,24,"Desk 7: Sergio Junior. 
+This structured layout promotes collaboration while providing each team member with a 
+dedicated workspace for their research activities. 
+Main Corridor 
+The Main Corridor serves as the central connection point for various facilities and offices 
+within the building. It features an emergency exit at the northern end and access to rooms 
+numbered 1 through 7. Key infrastructure elements are strategically placed along the 
+corridor, such as: 
+Electric and Network Panels: Located on the northern wall, containing circuit breakers and ",SemanticDescription.txt
+6,28,"The Main Corridor serves as the central connection point for various facilities and offices 
+within the building. It features an emergency exit at the northern end and access to rooms 
+numbered 1 through 7. Key infrastructure elements are strategically placed along the 
+corridor, such as: 
+Electric and Network Panels: Located on the northern wall, containing circuit breakers and 
+internet/telephone cables. 
+Trash Bins: Positioned to encourage cleanliness. 
+Water Dispensers: Two dispensers provide easy access to drinking water or bottle refilling. ",SemanticDescription.txt
+7,32,"Electric and Network Panels: Located on the northern wall, containing circuit breakers and 
+internet/telephone cables. 
+Trash Bins: Positioned to encourage cleanliness. 
+Water Dispensers: Two dispensers provide easy access to drinking water or bottle refilling. 
+Facilities accessible via the Main Corridor include: 
+Room 1: Secretariat for the computing area, staffed by Thiago Oliveira dos Santos. 
+Room 2: A classroom dedicated to computing and robotics students. 
+Room 3: Storage area for equipment belonging to the High-Performance Computing ",SemanticDescription.txt
+8,36,"Facilities accessible via the Main Corridor include: 
+Room 1: Secretariat for the computing area, staffed by Thiago Oliveira dos Santos. 
+Room 2: A classroom dedicated to computing and robotics students. 
+Room 3: Storage area for equipment belonging to the High-Performance Computing 
+Laboratory (LCAD). 
+Room 4: Conference room. 
+Room 5: Main workspace for LCAD researchers. 
+Room 6: Human Centered System Laboratory (HCS). 
+Room 7: Meeting room for LCAD. 
+The Main corridor is further enhanced by a Wi-Fi access point located centrally, ensuring ",SemanticDescription.txt
+9,41,"Room 4: Conference room. 
+Room 5: Main workspace for LCAD researchers. 
+Room 6: Human Centered System Laboratory (HCS). 
+Room 7: Meeting room for LCAD. 
+The Main corridor is further enhanced by a Wi-Fi access point located centrally, ensuring 
+fast wireless internet for students and staff. Power outlets are distributed along the walls 
+for general use. A fire alarm is installed near the main entrance for emergencies, while a 
+maintenance room at the far end houses tools like hammers, screwdrivers, and other ",SemanticDescription.txt
+10,45,"The Main corridor is further enhanced by a Wi-Fi access point located centrally, ensuring 
+fast wireless internet for students and staff. Power outlets are distributed along the walls 
+for general use. A fire alarm is installed near the main entrance for emergencies, while a 
+maintenance room at the far end houses tools like hammers, screwdrivers, and other 
+essentials. 
+The Registration Desk, located within the Main Corridor, serves as a central hub for 
+managing visitor logs and event schedules. During academic conferences and meetings, ",SemanticDescription.txt
+11,48,"maintenance room at the far end houses tools like hammers, screwdrivers, and other 
+essentials. 
+The Registration Desk, located within the Main Corridor, serves as a central hub for 
+managing visitor logs and event schedules. During academic conferences and meetings, 
+Professor Thiago Oliveira dos Santos, the General Area Coordinator, is often found here. 
+He is responsible for organizing action calendars and ensuring smooth coordination of 
+activities, making the Registration Desk a key location for event management and ",SemanticDescription.txt
+12,51,"managing visitor logs and event schedules. During academic conferences and meetings, 
+Professor Thiago Oliveira dos Santos, the General Area Coordinator, is often found here. 
+He is responsible for organizing action calendars and ensuring smooth coordination of 
+activities, making the Registration Desk a key location for event management and 
+information during such occasions. 
+High-Performance Computing Laboratory (LCAD) 
+The High-Performance Computing Laboratory (LCAD) is dedicated to advanced 
+computational research, including deep learning, natural language processing, and ",SemanticDescription.txt
+13,55,"information during such occasions. 
+High-Performance Computing Laboratory (LCAD) 
+The High-Performance Computing Laboratory (LCAD) is dedicated to advanced 
+computational research, including deep learning, natural language processing, and 
+probabilistic robotics. The High-Performance Computing Laboratory (LCAD)  flagship 
+projects are: 
+Robot named IARA: An autonomous robot designed for real-world navigation. 
+Robot named Hercules: A robotic vehicle equipped with a manipulative robotic arm. 
+Robot named Argos: A quadrupedal robot resembling a small dog. ",SemanticDescription.txt
+14,59,"probabilistic robotics. The High-Performance Computing Laboratory (LCAD)  flagship 
+projects are: 
+Robot named IARA: An autonomous robot designed for real-world navigation. 
+Robot named Hercules: A robotic vehicle equipped with a manipulative robotic arm. 
+Robot named Argos: A quadrupedal robot resembling a small dog. 
+ 
+The main workspace, known as the High-Performance Computing Laboratory Main Room, 
+is where students actively work on these projects. This space is equipped with high-
+performance workstations, equipment storage, and areas for programming and testing ",SemanticDescription.txt
+15,63,"Robot named Argos: A quadrupedal robot resembling a small dog. 
+ 
+The main workspace, known as the High-Performance Computing Laboratory Main Room, 
+is where students actively work on these projects. This space is equipped with high-
+performance workstations, equipment storage, and areas for programming and testing 
+robotic systems. Students such as Guilherme Zanetti, Lucas Luppi, and Breno Angelo can 
+typically be found in this room, collaborating on their research and assignments. 
+Alberto Ferreira, one of LCAD’s leading researchers specializing in artificial general ",SemanticDescription.txt
+16,67,"performance workstations, equipment storage, and areas for programming and testing 
+robotic systems. Students such as Guilherme Zanetti, Lucas Luppi, and Breno Angelo can 
+typically be found in this room, collaborating on their research and assignments. 
+Alberto Ferreira, one of LCAD’s leading researchers specializing in artificial general 
+intelligence, is primarily based in the High-Performance Computing Laboratory Main Room 
+but frequently uses the High-Performance Computing Laboratory Meeting Room for ",SemanticDescription.txt
+17,70,"Alberto Ferreira, one of LCAD’s leading researchers specializing in artificial general 
+intelligence, is primarily based in the High-Performance Computing Laboratory Main Room 
+but frequently uses the High-Performance Computing Laboratory Meeting Room for 
+focused discussions, project reviews, and collaborative sessions. 
+These defined spaces within the LCAD ensure an organized environment that supports 
+both individual and team-based research activities. 
+Cafeteria Area 
+The Cafeteria Area, located in the southwest section of the building, offers a comfortable ",SemanticDescription.txt
+18,74,"These defined spaces within the LCAD ensure an organized environment that supports 
+both individual and team-based research activities. 
+Cafeteria Area 
+The Cafeteria Area, located in the southwest section of the building, offers a comfortable 
+environment for relaxation and social interaction. It features: 
+Washing Station: For cleaning meal kits and utensils. 
+Seating Area: Tables and chairs for shared use, suitable for meals, casual discussions, or 
+informal work. 
+Refrigerator: For storing perishable items. ",SemanticDescription.txt
+19,78,"environment for relaxation and social interaction. It features: 
+Washing Station: For cleaning meal kits and utensils. 
+Seating Area: Tables and chairs for shared use, suitable for meals, casual discussions, or 
+informal work. 
+Refrigerator: For storing perishable items. 
+Despite lacking a coffee maker, the cafeteria provides an ideal spot for rest and 
+collaboration among students, researchers, and visitors. 
+Hallway to Bathrooms 
+The Hallway to Bathrooms, situated in the southern section of the CT-XIII building, ",SemanticDescription.txt
+20,82,"Refrigerator: For storing perishable items. 
+Despite lacking a coffee maker, the cafeteria provides an ideal spot for rest and 
+collaboration among students, researchers, and visitors. 
+Hallway to Bathrooms 
+The Hallway to Bathrooms, situated in the southern section of the CT-XIII building, 
+connects the Main Corridor to restroom facilities. It includes: 
+Accessible Bathrooms: Separate male and female restrooms equipped for individuals with 
+disabilities. 
+Water Tank Room: Houses the supply system for the restrooms. ",SemanticDescription.txt
+21,86,"The Hallway to Bathrooms, situated in the southern section of the CT-XIII building, 
+connects the Main Corridor to restroom facilities. It includes: 
+Accessible Bathrooms: Separate male and female restrooms equipped for individuals with 
+disabilities. 
+Water Tank Room: Houses the supply system for the restrooms. 
+Clear signage ensures accessibility and convenience for all users. 
+Southwest Lobby 
+The Southwest Lobby serves as the primary entrance to the building. It includes: 
+An emergency kit for fire incidents. ",SemanticDescription.txt
+22,90,"Water Tank Room: Houses the supply system for the restrooms. 
+Clear signage ensures accessibility and convenience for all users. 
+Southwest Lobby 
+The Southwest Lobby serves as the primary entrance to the building. It includes: 
+An emergency kit for fire incidents. 
+The main alarm control panel, managing the building’s security system. 
+The electrical and connections control panel, overseeing general utilities. 
+This lobby is a central hub for safety and operational management. 
+In the Southwest Lobby near to main entrance, the Information Desk, managed by Nuno ",SemanticDescription.txt
+23,94,"An emergency kit for fire incidents. 
+The main alarm control panel, managing the building’s security system. 
+The electrical and connections control panel, overseeing general utilities. 
+This lobby is a central hub for safety and operational management. 
+In the Southwest Lobby near to main entrance, the Information Desk, managed by Nuno 
+Boscaglia, serves as the first point of contact for students and visitors. It provides guidance, 
+along with informational fliers and brochures to help navigate the building and its activities.  ",SemanticDescription.txt
+24,97,"This lobby is a central hub for safety and operational management. 
+In the Southwest Lobby near to main entrance, the Information Desk, managed by Nuno 
+Boscaglia, serves as the first point of contact for students and visitors. It provides guidance, 
+along with informational fliers and brochures to help navigate the building and its activities.  
+Southeast Lobby 
+The Southeast Lobby, complementary to the Southwest Lobby, provides: 
+Storage for cleaning equipment. 
+Stairs to the building's second floor. ",SemanticDescription.txt
+25,101,"Southeast Lobby 
+The Southeast Lobby, complementary to the Southwest Lobby, provides: 
+Storage for cleaning equipment. 
+Stairs to the building's second floor. 
+An elevator for individuals with mobility challenges or maintenance personnel. 
+The Southeast Lobby connects seamlessly to the Main Corridor and Southwest Lobby, 
+ensuring smooth movement throughout the building. 
+",SemanticDescription.txt
