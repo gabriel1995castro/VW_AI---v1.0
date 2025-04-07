@@ -13,10 +13,6 @@
             --bubble-color: #fff;
             --input-bg: #f0f2f7;
             --animation-duration: 0.5s;
-
-            --mode-manual:#8a2405;
-            --mode-assist: #0c3f10;
-            --mode-none: #310c36;
         }
 
         * {
@@ -63,31 +59,6 @@
         .header p {
             color: #666;
             font-size: 16px;
-        }
-
-        /* Indicador de Modo (Somente Leitura) */
-        .mode-indicator {
-            position: fixed;
-            top: 70px;
-            right: 20px;
-            background-color: var(--bubble-color);
-            border-radius: 20px;
-            padding: 10px 15px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            align-items: center;
-            font-size: 14px;
-            z-index: 100;
-            transition: all 0.3s ease;
-        }
-
-        .mode-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            margin-right: 8px;
-            background-color: var(--mode-assist);
-            transition: background-color 0.3s ease;
         }
 
         .robot-container {
@@ -384,7 +355,7 @@
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-5px); }
         }
-        
+
         .fade-in {
             animation: fadeIn var(--animation-duration) ease;
         }
@@ -457,12 +428,6 @@
         <div class="background-circle circle1"></div>
         <div class="background-circle circle2"></div>
         
-        <!-- Mode indicator -->
-        <div class="mode-indicator">
-            <div class="mode-dot" id="mode-dot"></div>
-            <span id="mode-text">Modo: Navegação Assistida</span>
-        </div>
-        
         <!-- Header -->
         <div class="header">
             <h1>V-W.A.I</h1>
@@ -518,44 +483,8 @@
         const status = document.getElementById('status');
         const statusText = document.getElementById('status-text');
         const speechBubble = document.querySelector('.speech-bubble');
-        const modeDot = document.getElementById('mode-dot');
-        const modeText = document.getElementById('mode-text');
         
-        const deviceModes = {
-            manual: {
-                color: 'var(--mode-manual)',
-                text: 'Mode: Free Navigation',
-                description: 'Você tem controle total sobre o VWalker.'
-            },
-            
-            assist: {
-                color: 'var(--mode-assist)',
-                text: 'Mode: Assisted Navigation',
-                description: 'Modo de assistência ativado. O VWalker está te ajudando a caminhar.'
-            },
-
-            none: {
-                color: 'var(--mode-none)',
-                text: 'Mode: none',
-                description: 'Modo de navegação indefinido.'
-            },
-        };
-        
-        // Set initial mode
-        let currentMode = 'assist'; // Default mode
-
-        updateDeviceMode(currentMode);
-        
-        // Update device mode indicator
-        function updateDeviceMode(mode) {
-            if (!deviceModes[mode]) return;
-            
-            currentMode = mode;
-            modeDot.style.backgroundColor = deviceModes[mode].color;
-            modeText.textContent = deviceModes[mode].text;
-        }
-        
-        // Event Listeners for chat functionality
+        // Event Listeners
         sendBtn.addEventListener('click', processInput);
         userInput.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
@@ -585,12 +514,7 @@
                 const response = await getAIResponse(text);
                 
                 // Update the speech bubble text
-                responseText.textContent = response.message;
-                
-                // Check if mode needs to be updated from LLM response
-                if (response.mode && deviceModes[response.mode]) {
-                    updateDeviceMode(response.mode);
-                }
+                responseText.textContent = response;
                 
                 // Show speech bubble with fade in effect
                 speechBubble.classList.remove('fade-in');
@@ -602,7 +526,7 @@
                 // Return robot to idle state
                 updateStatus('idle', 'Ready');
                 stopThinkingAnimation();
-            })();
+            })(); // 2 second delay to simulate thinking
         }
         
         // Start robot thinking animation
@@ -623,51 +547,34 @@
             statusText.textContent = message;
         }
         
-        // Get AI response from server
+        // Simulate AI response (replace with actual LLM call)
         async function getAIResponse(text) {
-            try {
-                const response = await fetch('/chat', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ message: text })
-                });
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ message: text })
+            });
 
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-
-                const data = await response.json();
-                console.log("Received response:", data);
-                return {
-                    message: data.message || "Desculpe, houve um problema ao processar sua solicitação.",
-                    mode: data.mode || currentMode // Use current mode if no mode is returned
-                };
-            } catch (error) {
-                console.error("Error communicating with server:", error);
-                return {
-                    message: "Desculpe, houve um problema ao se comunicar com o servidor.",
-                    mode: currentMode // Keep current mode on error
-                };
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
             }
+
+            const data = await response.json();
+            console.log(data.message);
+            return data.message;
         }
-        
-        // For testing purposes - uncomment if backend is not ready
-        /*
-        function getAIResponse(text) {
-            // Simulate a response that could include mode information
+        /*function getAIResponse(text) {
             const responses = [
-                { message: "I understand what you're asking about. Could you provide more details?", mode: "assist" },
-                { message: "That's an interesting question! The walker is now in manual mode for you to control.", mode: "manual" },
-                { message: "I'm here to help with questions like that. Let me explain while assisting your walking.", mode: "assist" },
-                { message: "Thanks for your query. I've switched the walker to manual mode for you.", mode: "manual" },
-                { message: "I've processed your request. The walker is now in assist mode to help you.", mode: "assist" }
+                "I understand what you're asking about. Could you provide more details?",
+                "That's an interesting question! Based on my knowledge, I think...",
+                "I'm here to help with questions like that. Let me explain...",
+                "Thanks for your query. Here's what I know about that topic...",
+                "I've processed your request and can offer some insights on that subject."
             ];
-            
-            return Promise.resolve(responses[Math.floor(Math.random() * responses.length)]);
-        }
-        */
+            return responses[Math.floor(Math.random() * responses.length)];
+        }*/
         
         // Initialize with idle animation
         window.addEventListener('load', function() {
